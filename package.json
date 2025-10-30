@@ -1,14 +1,16 @@
 {
-  "name": "backend",
+  "name": "fitness-backend",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "vercel-build": "echo 'Vercel build complete'"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sanjeevijesh",
   "license": "ISC",
-  "description": "",
+  "description": "Fitness Tracker Backend - Express + MongoDB API",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
